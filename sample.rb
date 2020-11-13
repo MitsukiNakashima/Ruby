@@ -1,5 +1,5 @@
 def foo(n)
-  (1..n).each do |num|
+  1.upto(n) do |num|
     print num 
   
     if num%5==0
